@@ -1,0 +1,101 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+html{
+  height: 100%;
+}
+body{
+  background-image: linear-gradient(to bottom right,rgb(114,135,254),rgb(130,88,136));
+}
+body .login-container{
+  width: 600px;
+  margin: 0 auto;
+  margin-top: 20%;
+  border-radius: 15px;
+  box-shadow: 0px 10px 50px 0px rgb(59,45,159);
+}
+body .login-container .left-container{
+  background-image: linear-gradient(to bottom right ,rgb(118,76,163),rgb(92,103,211));
+  display: inline-block;
+  width: 330px;
+  padding: 60px;
+  border-top-left-radius: 15px;
+  border-bottom-left-radius: 15px;
+}
+body .login-container .right-container{
+  width: 145px;
+  display: inline-block;
+  height: calc(100%-120px);
+  vertical-align: top;
+  padding: 60px 0;
+}
+body .login-container .left-container .title{
+  color: #fff;
+  font-size: 15px;
+  font-weight: 200;
+}
+body .login-container .left-container .title span{
+  border-bottom: 3px solid rgb(237, 221, 22);
+}
+.input-container{
+  padding: 10px 0;
+}
+.input-container input{
+  border: 0;
+  outline: 0;
+  background: none;
+  color: #fff;
+  display: block;
+  width: 100%;
+  margin: 20px 0;
+  padding: 5px 0;
+  transition: .2s;
+  border-bottom: 1px solid rgb(199,191, 219);
+}
+::-webkit-input-placeholder{
+  color: rgb(199,191, 219);
+}
+.input-container input:hover{
+  border-bottom-color: #fff;
+}
+.message{
+  font-size: 14px;
+  color: rgb(199,191, 219);
+  transition: .2s;
+  cursor: pointer;
+}
+.message:hover{
+  color: #fff;
+}
+.zhuce-container{
+  text-align: center;
+  color: #fff;
+  font-size: 18px;
+  font-weight: 200;
+}
+.zhuce-container span{
+  border-bottom: 3px solid rgb(237, 221, 22);
+}
+.action-submit{
+  font-size: 10px;
+  color: #fff;
+  height: 100%;
+  position: relative;
+}
+.action-submit span{
+  border: 1px solid rgb(237, 221, 22);
+  padding: 10px;
+  display: inline-block;
+  line-height: 25px;
+  position:absolute;
+  bottom: -160px;
+  left:47px;
+  transition: .2s;
+  cursor: pointer;
+  border-radius: 50%;
+}
+.action-submit span:hover{
+  background-color: rgb(237, 221, 22);
+  color: rgb(95,76,194);
+}
